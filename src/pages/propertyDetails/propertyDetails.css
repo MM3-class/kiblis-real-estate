@@ -1,0 +1,16 @@
+.property-details {
+    margin: 120px auto;
+    padding: 18px;
+    width: 100%;
+}
+.property-details .goBack {
+    font-size: 1.8rem;
+    font-weight: 100;
+    border-right: thin solid var(--primary-color);
+    padding-right: 12px;
+    cursor: pointer;
+}
+.property-details .property-title {
+    display: inline-block;
+    padding-left: 12px;
+}

@@ -1,0 +1,226 @@
+h2 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+small {
+    font-size: 1.2rem;
+    line-height: 32px;
+}
+
+.detail {
+    /* display: flex; */
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+}
+.slick-arrow {
+    background-color: rgba(0, 0, 0, .4) !important;
+    color: var(--secondary-color);
+    width: 2rem;
+    position: absolute !important;
+    width: 60px !important;
+    height: 60px !important;
+    z-index: 200;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 2rem !important;
+}
+ .slick-next {
+    right: 0px !important;
+}
+ .slick-prev {
+    left: 0px !important;
+}
+.detail-left {
+    flex: 3;
+    margin-right: 18px;
+    /* position: relative !important; */
+}
+.slick-dots li {
+    color: aliceblue !important;
+}
+.detail-left>* {
+    width: 68% !important;
+    text-align: start;
+}
+
+.detail-right {
+    flex: 1;
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    border: thin solid var(--secondary-color);
+    margin: 10px 30px 10px 10px;
+    background: linear-gradient(to top, rgba(26, 26, 26, .4), rgba(16, 16, 16, .8));
+    box-shadow: 3px 3px 5px rgb(98, 122, 98);
+    border-radius: 12px;
+}
+
+.detail-images {
+    width: 70%;
+    height: 700px;
+}
+
+.detail-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-titles {
+    padding: 50px 0;
+}
+
+.detail-titles h1 {
+    margin-left: 0;
+    font-size: 2.2rem;
+}
+
+.detail-titles h1:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.detail-titles h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: thin solid var(--secondary-color);
+}
+
+.apartment-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: thin solid var(--secondary-color);
+}
+
+.apartment-details p {
+    font-size: 2rem !important;
+    padding: 0 10px;
+    margin: 10px auto;
+}
+
+.apartment-details span {
+    border-right: none;
+    padding-right: 8px;
+}
+.table-details {
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-bottom: thin solid var(--secondary-color);
+}
+.detail-features h2 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.detail-features span {
+    border-right: none;
+    color: green;
+    padding: 0;
+    display: inline-flex;
+}
+
+.detail-desc {
+    margin: 42px 0;
+}
+
+.detail-desc h2 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.detail-desc p {
+    font-size: 1.3rem !important;
+    line-height: 34px;
+    color: var(--secondary-color);
+}
+
+.detail-listing-details {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.detail-listing-details h2 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.detail-listing-details .table-listing {
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    width: 100%;
+    border: thin solid var(--secondary-color);
+    border-collapse: collapse;
+    margin: 20px auto;
+    table-layout: fixed;
+}
+
+.table-listing td {
+    width: 100%;
+    padding: 25px;
+    font-size: 1.4rem;
+    font-weight: 100;
+    border-bottom: thin solid var(--secondary-color);
+}
+
+.detail-location {
+    margin: 22px 0;
+}
+
+.detail-schools {
+    width: 100%;
+}
+
+.schoolDetails {
+    padding: 10px !important;
+    margin: 5px 0;
+    font-size: 1.3rem !important;
+}
+
+
+.detail-right p {
+    padding: 0 10px;
+    font-size: 1.9rem !important;
+    letter-spacing: 2px;
+}
+.right-content {
+    margin: auto;
+}
+.advertiser-mail {
+    padding: 12px 0 !important;
+    text-align: center;
+    border-top: thin solid var(--secondary-color);
+    cursor: pointer;
+    font-size: 1.8rem;
+    transition: background-color .7s;
+}
+.advertiser-mail a {
+    color: var(--primary-color);
+}
+.advertiser-mail:hover {
+    background-color: var(--secondary-color);
+}

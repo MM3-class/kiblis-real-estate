@@ -1,0 +1,23 @@
+.for-rent {
+    margin: 120px auto;
+}
+.rent-header h1 {
+    text-align: center;
+    padding: 60px 10px !important;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.navigate {
+    font-size: 2rem;
+    font-weight: 100;
+}
+.navigate span {
+    border-right: 1px solid var(--primary-color);
+    padding: 10px;
+    cursor: pointer;
+}
+.for-rent .property-header {
+    padding: 10px;
+    font-size: 2rem !important;
+    display: inline-block;
+}

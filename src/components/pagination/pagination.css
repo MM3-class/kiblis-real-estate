@@ -1,0 +1,43 @@
+.pagination-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.page-num, .prev, .next {
+    padding: 0 8px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+.page-num:hover {
+    background-color: var(--primary-color);
+    color: #101010;
+}
+.properties {
+    display: block;
+}
+
+.page-active {
+    background-color: var(--primary-color);
+    color: #101010;
+}
+
+.for-rent {
+    margin: 120px auto;
+    overflow: hidden;
+    width: 100%;
+}
+.property {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+}

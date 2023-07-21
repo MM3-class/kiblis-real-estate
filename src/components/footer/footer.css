@@ -1,0 +1,65 @@
+a {
+    color: var(--secondary-color);
+}
+li {
+    padding: 3px 0;
+    font-family: var(--secondary-font);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin: 22px auto;
+    width: 90%;
+    padding: 40px 10px;
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--background-color);
+    border-top: 1px solid var(--background-color);
+}
+legend {
+    font-family: var(--secondary-font);
+    padding-bottom: 8px;
+}
+.more {
+    flex: 1;
+}
+.more-logo {
+    margin-bottom: 5px;
+}
+.more-description {
+    font-family: var(--secondary-font);
+    line-height: 25px;
+}
+.contact {
+    flex: 1;
+}
+.follow {
+    flex: 1;
+}
+.follow .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding: 8px 0; 
+}
+.icons > div {
+    background-color: var(--background-color);
+    margin: 10px;
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.icons > div:hover,
+li a:hover,
+.contact-me:hover {
+    color: var(--primary-color);
+}
+.copy-right {
+    text-align: center;
+    margin: 18px ;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size: .8rem;
+}

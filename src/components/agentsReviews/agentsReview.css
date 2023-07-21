@@ -1,0 +1,12 @@
+.similarAgents {
+    margin: 25px auto;
+}
+.similarAgents h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.horizontal {
+    width: 90%;
+    margin: auto;
+}

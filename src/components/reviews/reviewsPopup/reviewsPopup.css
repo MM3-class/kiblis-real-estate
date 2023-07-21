@@ -1,0 +1,46 @@
+.reviews-popup {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: rgba(26, 26, 26, .9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.popup-details {
+    border: thin solid var(--primary-color);
+    width: 90%;
+    padding: 30px;
+    text-align: start !important;
+    background-color: #161616;
+}
+.popup-name,
+.popup-subtitle,
+.popup-rating {
+    text-align: start !important;
+    padding: 20px 0;
+    font-size: 2.2rem !important;
+}
+.popup-subtitle {
+    border-bottom: thin solid var(--primary-color);
+    margin-bottom: 20px !important;
+}
+.popup-rating svg {
+    margin: 0 12px;
+}
+.closeModal-btn {
+    float: right !important;
+    text-align: end !important;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+}

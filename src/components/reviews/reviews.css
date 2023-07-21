@@ -1,0 +1,78 @@
+.reviews-container {
+    padding: 42px 0;
+    margin: 32px auto;
+    width: 90%;
+}
+.reviews-container h1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+.reviews-content {
+    padding: 32px;
+}
+
+.single-review {
+    border: thin solid var(--primary-color);
+    width: 90% !important;
+    position: relative;
+}
+.single-review h3 {
+    color: var(--primary-color);
+    padding: 12px 6px;
+
+}
+.read-more-titles {
+    height: 300px;
+    overflow: hidden;
+}
+.single-review p {
+    line-height: 32px;
+    font-size: 1.3rem !important;
+    padding: 12px 6px 0 12px;
+}
+.single-review small {
+    color: #252525;
+    padding: 8px;
+}
+.single-review p .overlay {
+    box-shadow: 3px 3px 48px #161616;
+    background: linear-gradient(to top , rgba(20, 20, 20, 1), rgba(20, 20, 20, 0.8));
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 22px auto;
+    padding: 16px 0;
+    text-align: center;
+}
+.slick-slider {
+    padding: 50px 0;
+}
+.read-more-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 6px;
+    border-top: thin solid var(--primary-color);
+}
+.read-more-btn .rating {
+    font-size: 1.5rem; 
+    color: var(--primary-color);
+}
+.rating svg {
+    margin: 0 6px !important;
+}
+.read-more-btn button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    margin: 22px 11px;
+    cursor: pointer;
+    float: right;
+}

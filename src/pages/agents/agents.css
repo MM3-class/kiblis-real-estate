@@ -1,0 +1,42 @@
+.agents-component {
+    background-image: url("../../assets/agents.jpg");
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 162px;
+}
+
+.agents-head {
+    box-shadow: 1px 1px 42px rgba(0, 0, 0);
+    background: linear-gradient(to top, #161616, rgba(0, 0, 0, .5));
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.agents-head h2 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    font-family: var(--primary-font);
+}
+.agents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 95%;
+    overflow: hidden;
+}
+.agents .agent {
+    position: relative;
+    box-shadow: 3px 3px 5px #504c4c;
+    margin: 12px;
+}

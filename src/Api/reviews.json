@@ -1,0 +1,52 @@
+{
+    "reviews": [
+        {
+            "id": 0,
+            "name": "Junior Scotti",
+            "comment": "Our agent Nadia Chamor is a fantastic and reliable person, very knowledgeable and professional. She helped Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt ea quisquam tenetur illum laudantium, ab perferendis, veniam deleniti, laboriosam cupiditate ipsa itaque quidem explicabo! Maiores nulla fugit recusandae ut! us in our first business in New York.",
+            "rating": 5
+        },
+        {
+            "id": 1,
+            "name": "Malika",
+            "status": "customer",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt ea quisquam tenetur illum laudantium, ab perferendis, veniam deleniti, laboriosam cupiditate ipsa itaque quidem explicabo! Maiores nulla fugit recusandae ut! sed pulvinar lectus interdum vel. ",
+            "rating": 4
+        },
+        {
+            "id": 2,
+            "name": "Ava",
+            "status": "customer",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, sed pulvinar lectus interdum vel. ",
+            "rating": 3
+        },
+        {
+            "id": 3,
+            "name": "Amelia",
+            "status": "Clint",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, sed pulvinar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt ea quisquam tenetur illum laudantium, ab perferendis, veniam deleniti, laboriosam cupiditate ipsa itaque quidem explicabo! Maiores nulla fugit recusandae ut! lectus interdum vel. ",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "name": "Charlotte",
+            "status": "customer",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, sed pulvinar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt ea quisquam tenetur illum laudantium, ab perferendis, veniam deleniti, laboriosam cupiditate ipsa itaque quidem explicabo! Maiores nulla fugit recusandae ut! lectus interdum vel. ",
+            "rating": 2
+        },
+        {
+            "id": 5,
+            "name": "Emma",
+            "status": "customer",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, sed pulvinar lectus interdum vel.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, sed pulvinar lectus interdum vel. ",
+            "rating": 5
+        },
+        {
+            "id": 6,
+            "name": "Olivia",
+            "status": "Regular",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat dui et lorem porttitor suscipit. Fusce pretium orci ipsum, quis interdum ante maximus sit amet. Pellentesque sagittis leo leo, sed pulvinar Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt ea quisquam tenetur illum laudantium, ab perferendis, veniam deleniti, laboriosam cupiditate ipsa itaque quidem explicabo! Maiores nulla fugit recusandae ut! lectus interdum vel. ",
+            "rating": 1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+.propertiesByLocation h1 {
+    font-size: 2.9rem;
+    margin-bottom: 52px;
+}
+.prefer-location {
+    padding: 52px 12px;
+}
+.btns-location {
+    width: 100%;
+    margin: 32px auto;
+}
+.btn-location {
+    margin: 0 22px;
+    padding: 12px 22px;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.location-active {
+    color: var(--primary-color);
+    border-bottom: thin solid var(--primary-color);
+}

@@ -1,0 +1,29 @@
+.card-similar-home {
+    margin: 8px 12px;
+    border: solid;
+    max-height: 500px;
+    background-color: var(--background-color);
+}
+.similar-home-img {
+    margin-bottom: 30px;
+    height: 200px;
+}
+.similar-home-img img {
+    width: 100%;
+    height: 100%;
+}
+.similar-home-img .slick-dots li{
+    margin: 0 12px;
+    width: 0px;
+}   
+.similar-home-img .slick-slider {
+    padding: 0 ;
+}
+.similar-home-desc {
+    text-align: start;
+    margin: 40px 20px;
+    line-height: 50px;
+}
+.similar-home-desc small {
+    padding-right: 16px;
+}
