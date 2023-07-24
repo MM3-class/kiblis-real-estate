@@ -31,8 +31,234 @@ h1 {
   font-weight: 100;
 }
 
-/* @media only screen and (max-width: 768px) {
-  .slick-slide div {
-    width: auto !important;
+@media only screen and (max-width: 1090px) {
+  html {
+    font-size: calc(60% + 0.8vmin) !important;
+}
+* {
+    font-size: 1rem;
+    margin: 0;
+}
+h1,
+h2,
+h3, h4 {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+}
+p {
+  font-size: 1rem !important;
+}
+a {
+  font-size: 1rem !important;
+}
+button {
+  font-size: 1rem !important;
+}
+iframe{
+  height: 300px !important;
+}
+.slick-dots {
+  bottom: -50px !important;
+}
+ .slick-dots li {
+  margin: 10px !important;
+}
+section {
+  margin: 20px auto !important;
+}
+  /* HOME PAGE START HERE */
+
+.img-field {
+  width: 50px;
+}
+.reviews-content .slick-initialized {
+  padding: 20px !important;
+}
+  .experts {
+    flex-direction: column;
   }
-} */
+  .experts-img {
+    width: 100% !important;
+  }
+  .properties-home {
+    height: auto !important;
+    flex-direction: column;
+    margin: 0 auto !important;
+  }
+  .properties-home .left-side {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  .properties-home .right-side {
+    margin-top: 20px;
+  }
+  .right-side img {
+    height: 400px !important;
+  }
+.propertiesByLocation .btn-location {
+  padding: 8px 12px !important;
+}
+  .explore-america {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .explore-right {
+    margin: 12px ;
+    text-align: start !important;
+  }
+  .explore-left {
+    width: 100% !important;
+    height: 300px !important;
+  }
+  .enquire-left {
+    width: 100% !important;
+  }
+  .read-more-btn {
+    padding: 6px !important;
+  }
+  /* ABOUT PAGE START HERE */
+  .presentation {
+    padding-bottom: 0 !important;
+  }
+  .presentation-logo {
+    width: 150px !important;
+    margin: 20px auto;
+  }
+  .presentation-desc {
+    grid-template-columns: 100% !important;
+  }
+  .presentation-right {
+    gap: 20px !important;
+  }
+  .presentation .our-services {
+    margin: 22px auto !important;
+  }
+  .our-services-content-dec {
+    display: flex !important;
+    flex-direction: column;
+    border-bottom: solid #686464;
+    padding-bottom: 12px;
+  }
+   .reverse {
+    flex-direction: column-reverse !important;
+  }
+  .our-services-img {
+    height: 300px !important;
+  }
+  .our-services-title p {
+    display: none;
+  }
+  .in-numbers-desc {
+    flex-direction: column;
+  }
+  
+  .in-numbers-desc > * {
+    border-bottom: thin solid #1DAEFF;
+    width: 100%;
+  }
+  .in-numbers-desc div h3,
+  .in-numbers-desc div p {
+    font-size: 1.5rem !important;
+  }
+  .in-numbers-desc div:last-child {
+    border-bottom: none;
+  }
+  .prompt-form form {
+    flex-direction: column;
+  }
+  .prompt-form input {
+    width: 100% !important;
+  }
+
+}
+@media only screen and (max-width: 670px)  {
+  html {
+    font-size: calc(60% + 0.8vmin) !important;
+}
+* {
+    font-size: 1rem;
+    margin: 0;
+}
+h1,
+h2,
+h3, h4 {
+  font-size: 1rem !important;
+  font-weight: 400;
+  line-height: 25px;
+}
+p {
+  font-size: 1rem !important;
+}
+a {
+  font-size: 1rem !important;
+}
+button {
+  font-size: 1rem !important;
+}
+li {
+  font-size: 1rem !important;
+  line-height: 25px !important;
+}
+iframe{
+  height: 300px !important;
+}
+section {
+  padding: 0 !important;
+}
+  small {
+    font-size: 1rem !important;
+  }
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+  .header {
+    padding: 22px 16px !important;
+  }
+  .header-logo a{
+    font-size: .5rem !important;
+  }
+  .header-logo img{
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .prefer-location {
+    padding: 12px !important;
+  }
+  .propertiesByLocation .btn-location {
+    font-size: .7rem !important;
+    padding: 4px !important;
+    margin: 4px;
+  }
+  .properties-home .left-side {
+    flex-direction: column-reverse;
+  }
+  .icons > * {
+    background-color: transparent !important;
+  }
+  .reviews-popup .popup-subtitle {
+    font-size: 1rem !important;
+  }
+  .popup-rating {
+    padding: 10px !important;
+  }
+  /* ABOUT PAGE */
+  .presentation-right {
+    padding: 5px;
+  }
+  .our-services {
+    margin: 20px !important;
+  }
+  .our-services-title {
+    margin: 20px !important;
+  }
+  .partners {
+  height: 30vh ;
+  }
+.partners .partner-img img {
+  width: 50px !important;
+  margin: 20px 0;
+}
+}

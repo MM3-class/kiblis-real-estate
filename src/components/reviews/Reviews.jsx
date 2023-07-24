@@ -32,7 +32,7 @@ const Reviews = ({reviews}) => {
         }
       },
       {
-        breakpoint: 900,
+        breakpoint: 1320,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -40,7 +40,7 @@ const Reviews = ({reviews}) => {
         }
       },
       {
-        breakpoint: 800,
+        breakpoint: 903,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1

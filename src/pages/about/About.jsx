@@ -89,7 +89,7 @@ const About = () => {
       <section className="our-services">
         <h1>OUR SERVICES</h1>
         <div className="our-services-content">
-          <div className="our-services-content-dec">
+          <div className="our-services-content-dec  reverse">
             <div className="our-services-img">
               <img src={consultingA} alt="" />
             </div>
@@ -121,7 +121,7 @@ const About = () => {
               <img src={consultingB} alt="" />
             </div>
           </div>
-          <div className="our-services-content-dec">
+          <div className="our-services-content-dec reverse">
             <div className="our-services-img">
               <img src={consultingC} alt="" />
             </div>
@@ -155,7 +155,7 @@ const About = () => {
               <img src={consultingD} alt="" />
             </div>
           </div>
-          <div className="our-services-content-dec">
+          <div className="our-services-content-dec reverse">
             <div className="our-services-img">
               <img src={consultingE} alt="" />
             </div>

@@ -1,5 +1,4 @@
 .about-container {
-    margin-top: 90px;
     width: 100%;
     overflow: hidden;
 }
@@ -76,8 +75,7 @@
     line-height: 32px;
 }
 .our-services {
-    margin: 172px auto !important;
-
+    margin: 172px auto ;
 }
 .our-services h1 {
     text-align: center;
