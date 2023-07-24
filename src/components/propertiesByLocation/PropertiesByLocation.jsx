@@ -31,7 +31,7 @@ function PropertiesByLocation() {
         const response = await LOCATIONS("/auto-complete", options);
         const data = await response.data;
         console.log("LOCATIONS", data);
-        setPropertiesFiltered(data.autocomplete)
+        setPropertiesFiltered(data.autocomplete.slice(0, 5))
       } catch (err) {
         console.log("ERROR", err.message);
       }

@@ -175,5 +175,6 @@ svg {
     .toggle-menu {
         transition: all 1s;
         opacity: 0;
+        display: none;
     }
 }
