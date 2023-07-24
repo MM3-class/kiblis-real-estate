@@ -224,3 +224,32 @@ small {
 .advertiser-mail:hover {
     background-color: var(--secondary-color);
 }
+@media only screen and (max-width: 1090px)  {
+    .detail-left>* {
+        width: 100% !important;
+      }
+      .detail-images {
+        margin-bottom: 20px;
+      }
+      .detail-titles h1 {
+        margin: 10px auto;
+      }
+      .table-listing td{
+        font-size: 1rem ;
+      }
+      .detail-right p {
+        font-size: 1rem !important;
+      }
+      .apartment-details p {
+        float: left;
+        font-size: 1rem !important;
+        text-align: start !important;
+        margin: 5px !important;
+      }
+      .detail span {
+        margin-right: 0;
+      }
+      iframe {
+        height: 200px !important;
+      }
+}

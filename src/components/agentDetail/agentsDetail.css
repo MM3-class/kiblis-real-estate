@@ -146,12 +146,54 @@
     line-height: 42px;
 }
 
-@media only screen and (max-width: 1570px) {
-    .detail-content .left-side .detail-img {
-        width: 100%;
-        height: 630px;
+@media only screen and (max-width: 1090px) {
+    .detail h1 {
+        margin: 10px;
     }
+     .detail-img {
+        width: 100%;
+        height: 200px;
+    }
+    .head h2{
+        padding-bottom: 0;
+    }
+    table {
+        width: 100% !important;
+    }
+    .detail-contact a{
+        width: 100px !important;
+        height: 40px !important;
+        padding: 10px !important;
+    }
+    .reviews-container {
+        padding: 10px;
+    }
+    .desc p {
+        line-height: 20px;
+        margin: 10px 0;
+        font-size: 1rem !important;
+    }
+    .data tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-img img {
+        object-position: 0 !important ; 
+        margin: auto !important;
+        text-align: center !important;
 
+    }
+    .inquire {
+        width: 100%;
+        height: 200px;
+    }
+    .inquire-btn {
+        width: 160px;
+        height: 40px;
+    }
+.detail-content {
+    gap: 30px;
+}
     .detail-img img {
         width: 100%;
         height: 100%;

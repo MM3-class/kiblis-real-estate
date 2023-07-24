@@ -193,9 +193,51 @@ section {
   .prompt-form input {
     width: 100% !important;
   }
+  .detail-right p{
+    font-size: 1rem !important;
+  }
 
+  .detail-right  {
+    position: static !important;
+    transform: translateY(0) !important;
+    width: 90% !important;
+    padding: 5px ;
+    flex: 0;
+  }
+  .detail-left {
+    width: 100% !important;
+    text-align: center !important;
+    margin: auto;
+  }
+  .advertiser-mail a {
+    font-size: 10px !important;
+  }
+  .detail {
+    display: block !important;
+    position: none;
+  } p {
+    font-size: .5rem !important;
+  }
+ .detail-images {
+    height: 200px !important; 
+  }
+  .apartment-details {
+    display: flex;
+    justify-content: start !important;
+    align-items: start !important;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.card-similar-home {
+  margin-bottom: 30px !important;
+}
+.similar-home-head {
+  margin: 20px auto;
+}
 }
 @media only screen and (max-width: 670px)  {
+  
   html {
     font-size: calc(60% + 0.8vmin) !important;
 }

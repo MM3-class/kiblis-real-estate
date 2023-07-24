@@ -54,7 +54,7 @@ const SimilarHome = ({ property_id }) => {
       try {
         const response = await PROPERTIES_API("/v2/list-similar-homes", options);
         const data = await response.data;
-        setSimilarHome(data?.data.home.related_homes.results);
+        setSimilarHome(data?.data.home.related_homes.results.slice(0, 5));
         console.log("similarHome", similarHome);
       } catch (err) {
         console.log("Similar", err.message);

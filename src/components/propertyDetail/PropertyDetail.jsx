@@ -44,7 +44,7 @@ export const PropertyDetail = ({ propertyDetail }) => {
     <section className="detail">
       <div className="detail-left">
         <Slider {...settings}>
-          {photos?.map((photo, index) => (
+          {photos?.slice(0, 8).map((photo, index) => (
             <div className="detail-images" key={property_id}>
               <img src={photo.href} alt="" loading="lazy" />
             </div>
