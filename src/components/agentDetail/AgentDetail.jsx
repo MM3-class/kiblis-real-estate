@@ -3,6 +3,7 @@ import "./agentsDetail.css";
 import PromptConsultation from "../promptConsultation/PromptConsultation";
 import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import PopupPrompt from "../promptConsultation/PopupPrompt";
 const Detail = ({ agents }) => {
   const [isShowPrompt, setIsShowPrompt] = useState(false);
   const {
@@ -36,9 +37,7 @@ const Detail = ({ agents }) => {
             >
               INQUIRE NOW
             </button>
-            {isShowPrompt ? (
-              <PromptConsultation setIsShowPrompt={setIsShowPrompt} />
-            ) : null}
+            {isShowPrompt ? <PopupPrompt setIsShowPrompt={setIsShowPrompt} /> : null}
           </div>
         </div>
         <div className="right-side">

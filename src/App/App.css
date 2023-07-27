@@ -88,10 +88,19 @@ section {
 .reviews-content .slick-initialized {
   padding: 20px 0 !important;
 }
+.prompt {
+  margin: 0 !important;
+}
+
 .prompt-form input  {
   margin: 20px auto !important;
 }
-
+.prompt-form form {
+  flex-direction: column;
+}
+.prompt-form input {
+  width: 100% !important;
+}
   .experts {
     flex-direction: column;
   }
@@ -115,6 +124,7 @@ section {
   .right-side img {
     height: 400px !important;
   }
+
 .propertiesByLocation .btn-location {
   padding: 8px 12px !important;
 }
@@ -186,12 +196,6 @@ section {
   }
   .in-numbers-desc div:last-child {
     border-bottom: none;
-  }
-  .prompt-form form {
-    flex-direction: column;
-  }
-  .prompt-form input {
-    width: 100% !important;
   }
   .detail-right p{
     font-size: 1rem !important;

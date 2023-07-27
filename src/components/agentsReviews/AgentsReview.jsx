@@ -20,7 +20,7 @@ const AgentsReview = ({ advertiser_id }) => {
       try {
         const response = await AGENTS_API("/get-reviews", options);
         const data = await response.data;
-        setReviews(data);
+        setReviews(data.slice(0, 5));
         console.log("REVIEWS", reviews);
       } catch (err) {
         console.log("ERROR", err.message);
