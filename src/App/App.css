@@ -107,6 +107,11 @@ section {
   .experts-img {
     width: 100% !important;
   }
+
+    .read-more-btn .rating svg{
+        margin: 0 !important;
+    }
+
   .properties-home {
   
     flex-direction: column;
